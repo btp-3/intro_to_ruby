@@ -1,0 +1,10 @@
+# exercise_two.rb - iterate through array and print out each value greater than 5
+
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+arr.each do |x|
+	if x > 5
+		puts x
+	end
+end
+
